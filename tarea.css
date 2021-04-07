@@ -54,6 +54,7 @@ body{
     padding: 8px;
     font-size: 18px;
     font-family: 'Poppins';
+    cursor: pointer;
     transition: all 0.3s ease;
 }
 .formulario .boton:hover{
