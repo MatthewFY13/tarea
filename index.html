@@ -28,11 +28,13 @@
     </div>
 
     <section class="formulario">
-        <input class="prueba1" type="text" name="nombre" id="nombre" placeholder="Nombre">
-        <input class="prueba1" type="email" name="email" id="email" placeholder="Correo electrónico">
-        <textarea class="prueba2" name="mensaje" placeholder="¿Cuál es el motivo de tu consulta?"></textarea>
+        <form action="">
+            <input class="prueba1" type="text" name="nombre" id="nombre" placeholder="Nombre" maxlength="10" required autofocus>
+            <input class="prueba1" type="email" name="email" id="email" placeholder="Correo electrónico" required>
+            <textarea class="prueba2" name="mensaje" placeholder="¿Cuál es el motivo de tu consulta?"></textarea>
 
-        <input class="boton" type="button" value="Enviar">
+            <button class="boton" name="boton" type="submit">Enviar</button>
+        </form>
     </section>
 </body>
 </html>
