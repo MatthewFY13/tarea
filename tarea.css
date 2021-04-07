@@ -6,6 +6,17 @@
 body{
     background: rgb(186, 186, 186);
 }
+
+.titulo{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    left: 38%;
+    top: 20%;
+}
+
+
 .formulario{
     width: 400px;
     padding: 30px;
